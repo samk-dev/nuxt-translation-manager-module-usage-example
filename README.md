@@ -2,6 +2,8 @@
 
 Example usage of `nuxt-i18n` and `nuxt-translation-manager`
 
+Checkout on [Codesanbox](https://codesandbox.io/p/github/samk-dev/nuxt-translation-manager-module-usage-example/main)
+
 [Vue i18n](https://vue-i18n.intlify.dev/)
 
 [Nuxt i18n Docs](https://i18n.nuxtjs.org/)
