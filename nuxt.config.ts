@@ -28,6 +28,9 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     lazy: true,
-    langDir: 'lang'
+    langDir: 'lang',
+    compilation: {
+      strictMessage: false
+    }
   }
 })

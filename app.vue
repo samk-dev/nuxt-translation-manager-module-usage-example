@@ -19,6 +19,18 @@
           <h3 class="text-primary">{{ $t('pluralization') }}</h3>
           <p>1 {{ $t('car', 1) }} - 2 {{ $t('car', 2) }}</p>
         </div>
+
+        <div>
+          <h3 class="text-primary">HTML</h3>
+          <p v-html="$t('html-msg')"></p>
+        </div>
+
+        <UAlert
+          icon="i-heroicons-shield-exclamation"
+          color="red"
+          variant="outline"
+          :description="$t('html-warning')"
+        />
       </div>
     </UContainer>
   </div>
